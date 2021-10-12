@@ -328,3 +328,6 @@ button {
   font-family: 'Times New Roman', Times, serif;
   color: #151718;
 }
+.buttons-coll a{
+	color:grey;
+}
