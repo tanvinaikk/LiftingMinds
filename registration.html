@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="    viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAATbpsyZUMEEzWktUSTJZQk5BOVRXMlg3TE1KRUxKVS4u"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="form.js"></script>
+    <title>Doctors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formContainer">
+        <div class="card">
+            <div class="inner-box" id="card">
+                <div class="card-front">
+                <h1>Enter Credentials Here:</h1>
+                    <input type="email" class="input-box" placeholder="Email here" id="email" required><br>
+                    <input type="password" class="input-box" placeholder="Password here" id="password" required><br>
+                    <input type="city" class="input-box" placeholder="Enter Your City" id="city" required><br>
+                    <label for="image">Please enter your Certificate here</label>
+                    <input type="file" class="input-box" id="image">
+                    <button onclick="signUp()" id="signUp">Register</button>
+                    <button onclick="signIn()" id="signIn">Login</button>
+                    <button onclick="signOut()" id="signOut">SignOut</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
